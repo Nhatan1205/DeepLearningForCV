@@ -1,7 +1,8 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-file_path = "D:/VietnguyenAI/Deep Learning/PythonProject/Exercises/full_numpy_bitmap_butterfly.npy"
+file_path = "./full_numpy_bitmap_butterfly.npy"
+
 images = np.load(file_path).astype(np.float32)
 # print(images.shape)
 # train_images = images[:-10]
